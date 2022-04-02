@@ -17,7 +17,7 @@ module.exports = defineConfig({
         name: "containerRemote",
         filename: "containerRemoteEntry.js",
         remotes: {
-          acrmRemote: "acrmRemote@http://localhost:3000/acrmRemoteEntry.js",
+          acrmRemote: "acrmRemote@http://localhost:3001/acrmRemoteEntry.js",
           ocrmRemote: "ocrmRemote@http://localhost:3002/ocrmRemoteEntry.js",
         },
         shared: {
