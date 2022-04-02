@@ -9,7 +9,7 @@ module.exports = defineConfig({
   },
   publicPath: "auto",
   devServer: {
-    port: 3000,
+    port: 3001,
   },
   transpileDependencies: true,
   configureWebpack: {
